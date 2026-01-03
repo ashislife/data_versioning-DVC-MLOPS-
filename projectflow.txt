@@ -28,3 +28,18 @@
 13. Check dvc/git status, everything should be upto date.
 
 14. Now repeat step 10-12 for v3 of data.
+
+
+
+
+#for rollback 
+1. git log --oneline
+2. git checkout <sha id>
+
+3. check dvc status (show changed )
+4. dvc pull (pull back the data)
+
+wapas se deleted pr jana hai 
+1. git checkout main
+2. git pull
+
